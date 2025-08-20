@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skill">HTML <span>90%</span></div>
+<div class="skill">CSS <span>85%</span></div>
+<div class="skill">JavaScript <span>70%</span></div>
+<div class="skill">Python <span>80%</span></div>
+<div class="skill">C, C++, Java <span>Intermediate</span></div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="project">
+<h3>Tribute Page</h3>
+<p>A responsive tribute page built with HTML & CSS.</p>
+<a href="https://anushka75.github.io/tribute-page/">Live Demo</a> |
+<a href="https://github.com/anushkadwivedi75-dot/tribute-page">Code</a>
+</div>
+
+
+<div class="project">
+<h3>Survey Form</h3>
+<p>A clean, responsive survey form created as part of FreeCodeCamp certification.</p>
+<a href="https://anushka75.github.io/survey-form/">Live Demo</a> |
+<a href="https://github.com/anushkadwivedi75-dot/survey-form">Code</a>
+</div>
+
+
+<div class="project">
+<h3>Personal Portfolio</h3>
+<p>An initial personal portfolio page created to showcase web development skills.</p>
+<a href="https://anushka75.github.io/portfolio/">Live Demo</a> |
+<a href="https://github.com/anushkadwivedi75-dot/portfolio">Code</a>
+</div>
+
+
+<p>See all FreeCodeCamp projects here: <a href="https://www.freecodecamp.org/certification/anushka75/responsive-web-design">Certification Link</a></p>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>Email: <a href="mailto:anushkadwivedi75@gmail.com">anushkadwivedi75@gmail.com</a></p>
+<p>GitHub: <a href="https://github.com/anushkadwivedi75-dot">github.com/anushkadwivedi75-dot</a></p>
+<p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+</section>
+
+
+<script src="script.js"></script>
+<script>
+const toggleBtn = document.getElementById("mode-toggle");
+toggleBtn.addEventListener("click", () => {
+document.body.classList.toggle("light-mode");
+if (document.body.classList.contains("light-mode")) {
+toggleBtn.textContent = "☀️ Light Mode";
+} else {
+toggleBtn.textContent = "🌙 Dark Mode";
+}
+});
+</script>
+</body>
+</html>
