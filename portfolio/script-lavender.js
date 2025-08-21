@@ -1,4 +1,4 @@
-// Smooth scrolling for nav links
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function(e) {
     e.preventDefault();
@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Dark/Light mode toggle
+
 const toggleBtn = document.getElementById("mode-toggle");
 if (toggleBtn) {
   toggleBtn.addEventListener("click", () => {
@@ -21,7 +21,7 @@ if (toggleBtn) {
   });
 }
 
-// Reveal on scroll
+
 function reveal() {
   let elements = document.querySelectorAll(".reveal");
   for (let i = 0; i < elements.length; i++) {
